@@ -1,0 +1,22 @@
+{
+  "name": "chessjs",
+  "version": "0.0.1",
+  "description": "A chess engine.",
+  "main": "./lib/game.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": "",
+  "keywords": [
+    "chess",
+    "engine"
+  ],
+  "author": "Viktor Varland",
+  "license": "GPLv3",
+  "dependencies": {
+    "nodeunit": "~0.8.1"
+  }
+}
