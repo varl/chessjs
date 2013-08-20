@@ -9,13 +9,13 @@
   "scripts": {
     "test": "./node_modules/nodeunit/bin/nodeunit tests"
   },
-  "repository": "",
+  "repository": { "type": "git", "url": "git://github.com/varl/chessjs.git"},
   "keywords": [
     "chess",
     "engine"
   ],
   "author": "Viktor Varland",
-  "license": "GPLv3",
+  "license": "Apache License",
   "dependencies": {
     "nodeunit": "~0.8.1"
   }
